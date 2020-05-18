@@ -5,20 +5,20 @@ from check_position import check_position
 from sudoku_solver import solve
 
 
-# row1 = np.array([7, 9, 0, 0, 0, 0, 3, 0, 0])
-# row2 = np.array([0, 0, 0, 0, 0, 6, 9, 0, 0])
-# row3 = np.array([8, 0, 0, 0, 3, 0, 0, 7, 6])
-# row4 = np.array([0, 0, 0, 0, 0, 5, 0, 0, 2])
-# row5 = np.array([0, 0, 5, 4, 1, 8, 7, 0, 0])
-# row6 = np.array([4, 0, 0, 7, 0, 0, 0, 0, 0])
-# row7 = np.array([6, 1, 0, 0, 9, 0, 0, 0, 8])
-# row8 = np.array([0, 0, 2, 3, 0, 0, 0, 0, 0])
-# row9 = np.array([0, 0, 9, 0, 0, 0, 0, 5, 4])
+row1 = np.array([7, 9, 0, 0, 0, 0, 3, 0, 0])
+row2 = np.array([0, 0, 0, 0, 0, 6, 9, 0, 0])
+row3 = np.array([8, 0, 0, 0, 3, 0, 0, 7, 6])
+row4 = np.array([0, 0, 0, 0, 0, 5, 0, 0, 2])
+row5 = np.array([0, 0, 5, 4, 1, 8, 7, 0, 0])
+row6 = np.array([4, 0, 0, 7, 0, 0, 0, 0, 0])
+row7 = np.array([6, 1, 0, 0, 9, 0, 0, 0, 8])
+row8 = np.array([0, 0, 2, 3, 0, 0, 0, 0, 0])
+row9 = np.array([0, 0, 9, 0, 0, 0, 0, 5, 4])
 
 
-# puzzle = np.array([row1, row2, row3, row4, row5, row6, row7, row8, row9])
+puzzle = np.array([row1, row2, row3, row4, row5, row6, row7, row8, row9])
 
-# print(solve(puzzle))
+print(solve(puzzle))
 
 
 

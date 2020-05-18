@@ -2,6 +2,10 @@ import numpy as np
 
 
 def get_zero_index(puzzle):
+    """
+    finds the row and column index (i,j) for a zero (blank) space in the puzzle.
+    """
+
     i = 0
     for row in puzzle:
 
